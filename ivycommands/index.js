@@ -1,10 +1,10 @@
-// Fancy chat function
+
 function chat(message) {
     const prefix = "§7[§cI§ev§ay§7]"; // [Ivy] with colors: I=red, v=yellow, y=green
     ChatLib.chat(`${prefix} §f${message}`);
 }
 
-// Example commands
+
 
 // /coinflip
 register("command", () => {
