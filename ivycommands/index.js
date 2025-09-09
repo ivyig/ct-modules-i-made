@@ -22,5 +22,5 @@ register("command", () => {
 // /coords
 register("command", () => {
     let pos = `${Player.getX().toFixed(1)}, ${Player.getY().toFixed(1)}, ${Player.getZ().toFixed(1)}`;
-    chat("📍 Your coords: " + pos);
+    chat(" Your coords: " + pos);
 }).setCommandName("coords");
