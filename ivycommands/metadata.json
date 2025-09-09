@@ -1,0 +1,7 @@
+{
+  "name": "ivycommands",
+  "creator": "Ivy",
+  "description": "A collection of fun and useful commands.",
+  "version": "1.0.0",
+  "entry": "index.js"
+}
