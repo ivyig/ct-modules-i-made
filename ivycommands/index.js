@@ -16,7 +16,7 @@ const responses = [
     "Yes", "No", "Maybe", "Definitely", "Not a chance", "Ask again later"
 ];
 register("command", () => {
-    chat("🎱 " + responses[Math.floor(Math.random() * responses.length)]);
+    chat(responses[Math.floor(Math.random() * responses.length)]);
 }).setCommandName("8ball");
 
 // /coords
